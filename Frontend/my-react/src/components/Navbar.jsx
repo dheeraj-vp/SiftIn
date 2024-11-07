@@ -61,8 +61,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='hidden sm:flex justify-around items-center space-x-6'>
-        <a href="#" className='py-1 px-5 whitespace-nowrap text-sm italic font-semibold border-2 border-cyan-500 rounded-md hover:bg-cyan-500 transition-all'>Sign In</a>
-        <a href="#" className='py-2 px-6 whitespace-nowrap text-sm italic font-semibold bg-gradient-to-r from-cyan-500 to-cyan-800 rounded-md hover:from-cyan-600 hover:to-cyan-900 transition-all'>Create an account</a>
+        <a href="http://localhost:5000/auth" className='py-1 px-5 whitespace-nowrap text-sm italic font-semibold border-2 border-cyan-500 rounded-md hover:bg-cyan-500 transition-all'>Sign In</a>
+        <a href="http://localhost:5000/auth" className='py-2 px-6 whitespace-nowrap text-sm italic font-semibold bg-gradient-to-r from-cyan-500 to-cyan-800 rounded-md hover:from-cyan-600 hover:to-cyan-900 transition-all'>Create an account</a>
       </div>
     </nav>
   );
